@@ -1,0 +1,172 @@
+*, *:before, *:after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 70px;
+}
+form{
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 15px rgb(5, 170, 235);
+}
+.button{
+    width: 50%;
+    border: none;
+    background-color: rgb(5, 170, 235);
+    color: white;
+    height: 50px;
+    font-size: 21px;
+}
+.button:hover{
+    transform: scale(1.2,1.2);
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+table{
+    width: 97%;
+    margin: 50px auto;
+    border-top: 2px solid #850505;
+    border-right: 2px  solid #eb770b;
+    border-bottom: 2px solid #fcf80d;
+    border-left: 2px solid #00b7ff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgb(5, 170, 235);
+}
+tr{
+    border: 1px solid black;
+}
+th{
+    text-align: center;
+    padding: 12px;
+}
+h4{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-shadow: 0 0 15px rgb(5, 170, 235);
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-close{
+    background-color: blue;
+    color: white;
+}
+.btn{
+    margin: 40px 50px;
+}
+.add{
+    width: 50%;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    font-size: 23px;
+    font-weight: bolder;
+    height: 54px;
+    padding: 10px;
+    text-align: center;
+}
+.add:hover{
+    transform: scale(1.2,1.2);
+    transition: 0.3s all;
+    cursor: pointer;
+}
+nav{
+    background-color: black;
+}
+nav ul a:hover {
+    transform: scale(1.2,1.2);
+    transition: 0.3s all;
+}
+.selected{
+    font-weight: bolder;
+    font-size: 20px;
+    border-bottom: 3px solid white;
+}
+.selected:hover{
+    border-bottom: none;
+}
+label{
+    font-size: 23px;
+    color: black;
+    font-weight: bolder;
+}
+h3{
+    text-align: center;
+}
+form p{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 10px;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 60px;
+
+}
+
+.red_color{
+    color: crimson;
+}
+.form__button{
+    width: 50%;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    font-size: 23px;
+    font-weight: bolder;
+    height: 54px;
+    text-align: center;
+}
+
+.form__button:hover{
+    transform: scale(1.2,1.2);
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.form-1 input, input{
+   height: 4rem;
+}
+.form-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.wrapper-2{
+    width: 100%;
+}
+
+.plotTable{
+    width: 67%;
+    margin: 40px auto;
+    border-top: 2px solid #850505;
+    border-right: 2px  solid #eb770b;
+    border-bottom: 2px solid #fcf80d;
+    border-left: 2px solid #00b7ff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgb(5, 170, 235);
+}
+.message{
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+    color: green;
+    font-weight: bolder;
+}
